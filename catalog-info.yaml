@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: blitzy-prometheus
+  description: the Prometheus monitoring system and time series database.
+  tags:
+  - go
+  annotations:
+    github.com/project-slug: Blitzy-Sandbox/blitzy-prometheus
+    backstage.io/source-location: url:https://github.com/Blitzy-Sandbox/blitzy-prometheus/tree/main/
+    backstage.io/techdocs-ref: dir:.
+  labels:
+    blitzy.com/language: go
+spec:
+  type: tool
+  lifecycle: production
+  owner: blitzy-sandbox
+  system: blitzy-go
